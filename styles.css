@@ -38,6 +38,16 @@ body {
 #card:hover {
     opacity: 0.98;
 }
+#eastConf,#westConf {
+    background-color: #0f6db4;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.5rem;
+}
+#standingsGlossary {
+    color: #7a7a7a;
+    font-size: .75em;
+}
 /* .header a img {
     cursor: pointer;
 }
