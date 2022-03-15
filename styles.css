@@ -10,8 +10,33 @@ body {
 #account {
     border-radius: 20px;
 }
+#navbarSupportedContent ul li a {
+    font-size: 18px;
+    font-weight: bold;
+}
 #navbarSupportedContent ul li a:hover {
     border-bottom: 4px solid #0f6db4;
+}
+#aroundLeague, #nbaStuff {
+    border-bottom: 4px solid #1d428a;
+}
+#buyNow {
+    background-color: #ec1c23;
+    font-size: 24px;
+    font-weight: bold;
+}
+#buyNow:hover {
+    opacity: 0.95;
+}
+#nba2kLogo:hover {
+    opacity: 0.95;
+}
+#nba2kText {
+    font-size: 24px;
+    font-weight: bold;
+}
+#card:hover {
+    opacity: 0.98;
 }
 /* .header a img {
     cursor: pointer;
