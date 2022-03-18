@@ -57,18 +57,3 @@ body {
 #hoverCard:hover {
     box-shadow: 5px 5px 10px grey;
 }
-/* .header a img {
-    cursor: pointer;
-}
-.header a {
-    color: white;
-    text-decoration: none;
-}
-.header #account {
-    background-color: #16ab4b;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-} */
