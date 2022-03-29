@@ -15,11 +15,9 @@ body {
     background-color: #1d428a;
 }
 #navbarSupportedContent ul li a {
+    border-bottom: 4px solid transparent;
     font-size: 18px;
     font-weight: bold;
-}
-#navbarSupportedContent ul li a {
-    border-bottom: 4px solid transparent;
 }
 #navbarSupportedContent ul li a:hover {
     border-bottom: 4px solid #0f6db4;
