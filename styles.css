@@ -27,7 +27,7 @@ body {
 }
 
 #homepage-img {
-    height: 220px;
+    height: 200px;
 }
 
 #read-more-btn {
@@ -72,9 +72,13 @@ body {
     box-shadow: 5px 5px 10px grey;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
     #card {
         height: 100%;
+    }
+
+    #homepage-img {
+        height: 160px;
     }
 
     #card-small-text {
@@ -95,4 +99,7 @@ body {
         font-weight: 400;
     }
 
+    #aboutUs {
+        text-align: center;
+    }
 }
