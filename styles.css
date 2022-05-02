@@ -25,6 +25,17 @@ body {
 #aroundLeague, #nbaStuff {
     border-bottom: 4px solid #1d428a;
 }
+
+#homepage-img {
+    height: 220px;
+}
+
+#read-more-btn {
+    bottom: 24px;
+    left: 24px;
+    position: absolute;
+}
+
 #buyNow {
     background-color: #ec1c23;
     font-size: 24px;
@@ -59,4 +70,29 @@ body {
 }
 #hoverCard:hover {
     box-shadow: 5px 5px 10px grey;
+}
+
+@media screen and (max-width: 720px) {
+    #card {
+        height: 100%;
+    }
+
+    #card-small-text {
+        font-size: 18px;
+    }
+
+    #mobile-text-none {
+        display: none;
+    }
+    
+    #nba2kLogo {
+        height: 100%;
+        width: 100%;
+    }
+
+    #nba2kText {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
 }
